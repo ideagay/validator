@@ -10,8 +10,7 @@
 
     import Validator from "@ideagays/validator";
 
-    let validator = new Validator(); // 构造一个实例对象
-    let validatorResult = validator.check([
+    let validatorResult = Validator.check([
     {
         value: this.form.age,
         key: 'age', 
