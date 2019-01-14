@@ -1,10 +1,10 @@
 {
-  "name": "@ideagey/validator",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@ideagays/validator",
+  "version": "0.0.3",
+  "main": "lib/validator.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name validator ./src/index.js --dest lib",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
