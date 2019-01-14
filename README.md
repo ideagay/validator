@@ -74,7 +74,7 @@ check 校验方法
 
 ### 例子
 
-[Demo](https://ideagay.github.io/)
+[Demo](https://ideagay.github.io/dist/#/validator)
 
     <template>
         <input type="text" v-model="form.name" placeholder="姓名" :class="{'error': validator.name}">
