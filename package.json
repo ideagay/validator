@@ -1,6 +1,6 @@
 {
   "name": "@ideagays/validator",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "lib/validator.common.js",
   "unpkg": "lib/validator.umd.js",
   "repository": {
@@ -15,7 +15,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name validator ./src/index.js --dest lib",
     "lint": "vue-cli-service lint",
-    "release": "bump --prompt --push --all "
+    "release": "bump --prompt --commit --tag --push --all"
   },
   "dependencies": {
     "vue": "^2.5.17"
